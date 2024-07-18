@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login Form </title>
+</head>
+
+<body>
+<section class="container">
+    <h2> Login Form </h2>
+        <form action="" class="form">
+            <label for="userId">Email or Phone</label>
+            <input type="text" name="username" id="userId">
+            <label for="password"><span> Password </span></label>
+            <input type="password" name="username" id="password">
+            <a onclick="suri()" href="">Login</a>
+        </form>
+        <p class="newUser">Not a member? <span>Signup now</span></p>
+</body>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    background: #5a5959;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 20rem;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border:3px solid black;
+    border-radius: 10px;
+}
+
+.container h2 {
+    margin-bottom: 2rem;
+}
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+.container form label {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.container form input {
+    width: 16rem;
+    padding: 5px 10px;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(133, 129, 129);
+}
+a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 1rem 0;
+    font-size: 18px;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5rem;
+    background-color: black ;
+}
+.newUser span {
+    color: greenyellow;
+}
+</style>
+</html>

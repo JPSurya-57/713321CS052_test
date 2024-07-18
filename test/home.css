@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    left:0;
+    z-index: 100%;
+    padding:.5rem 5rem;
+    box-shadow:5px 5px 20px rgba(0,0,0,.5);
+    background:black;
+
+}
+.navbar .navbar-brand{
+    font-size:25px;
+    font-weight:800;
+    color:rgb(10, 206, 43) !important;
+
+}
+#navbarSupportedContent a{
+    color:white; 
+    border-bottom:2px solid transparent;
+}
+
+#navbarSupportedContent li:hover{
+    border-bottom:2px solid greenyellow;
+}
+#navbarSupportedContent button{
+    background-color: green;
+    width:5rem;
+    border-radius: 15px;
+}
+section{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:url(unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    width:100%;
+    flex-direction: column;
+    display: flex; 
+   
+}
+#home{
+    color:rgb(31, 29, 29);
+    letter-spacing: 3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p{
+    font-size: 18px;
+    color:rgb(2, 2, 2);
+   
+}
+#home .input-group{
+    width: 40%;
+    height:45px;
+
+}
+#home input{
+    text-align: center;
+}
+.signin{
+    background-color: green !important;
+    color:white !important;
+}
+footer {
+    background-color:black;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    margin: 10px;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-column {
+        margin: 10px 0;
+    }
+    .image{
+        height: 20rem;
+        width: 400px;
+        background-size: 100% 100%;
+        border: 3px solid #333;
+        border-radius: 20px;
+        animation: slider 20s linear infinite;
+    }
+}

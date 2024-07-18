@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#product{
+    background:#e5e5e5;
+    width:100%;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight:700;
+}
+#product img{
+   width: 200px;
+   height:200px;
+}
+.card{
+    /* width: 250px;
+    height:350px; */
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content:center ;
+    align-items: center;
+    margin:20px 60px;
+}
+.signin{
+    background-color: green !important;
+    color:white;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px #87bcdb;
+}
